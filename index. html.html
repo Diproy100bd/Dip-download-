@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Downloader</title>
+    <title>Tech By Dip (Promt+Source)</title>
     <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome for icons -->
@@ -95,7 +95,6 @@
             <p class="text-center text-gray-600">&copy; 2025 Webapp Sikho. All rights reserved.</p>
         </div>
     </footer>
-
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
@@ -385,10 +384,13 @@
         });
 
         filesGrid.addEventListener('click', handleDownloadClick);
-        searchInput.addEventListener('input', handleSearch); // Changed to 'input' for better responsiveness
+        searchInput.addEventListener('input', handleSearch);
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.addEventListener('click', () => applyLanguage(btn.dataset.lang));
         });
+    </script>
+</body>
+</html>     });
     </script>
 </body>
 </html>", 'error');
